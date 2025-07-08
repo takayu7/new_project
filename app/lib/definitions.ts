@@ -1,7 +1,8 @@
-// This file contains type definitions for your data.
-// It describes the shape of the data, and what data type each property should accept.
-// For simplicity of teaching, we're manually defining these types.
-// However, these types are generated automatically if you're using an ORM such as Prisma.
+// このファイルには、データの型定義が含まれています。
+// データの構造や、各プロパティが受け入れるべきデータ型について説明しています。
+// 学習を簡単にするために、ここでは手動でこれらの型を定義しています。
+// ただし、PrismaなどのORMを使用している場合、これらの型は自動的に生成されます。
+
 export type User = {
   id: string;
   name: string;
