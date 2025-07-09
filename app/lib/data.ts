@@ -9,6 +9,8 @@ import {
 } from './definitions';
 import { formatCurrency } from './utils';
 
+//クエリ実行関数をまとめているフォルダー
+
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
 export async function fetchRevenue() {
