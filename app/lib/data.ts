@@ -6,7 +6,7 @@ import {
   InvoicesTable,
   LatestInvoiceRaw,
   Revenue,
-} from './definitions';
+} from '@/app/types/definitions';
 import { formatCurrency } from './utils';
 
 //クエリ実行関数をまとめているフォルダー
