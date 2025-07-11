@@ -1,5 +1,5 @@
-import '@/app/styles/global.css';
-import { inter } from '@/app/fonts/fonts';
+import "@/app/styles/global.css";
+import { inter } from "@/app/fonts/fonts";
 
 export default function RootLayout({
   children,
@@ -7,13 +7,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} antialiased`}>
-        <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-          <div className="flex-grow bg-gray-200 md:overflow-y-auto md:p-12">{children}</div>
-        </div>
-      </body>
-    </html>
+    <div
+      className={`${inter.className} antialiased flex h-screen flex-col md:flex-row md:overflow-hidden`}
+    >
+      <div className="flex-grow bg-gray-200 md:overflow-y-auto md:p-12">
+        {children}
+      </div>
+    </div>
   );
 }
 
