@@ -6,7 +6,7 @@ export default async function Page() {
   return (
     <main>
       <h1 className={`${inter.className} mb-4 text-xl md:text-2xl`}>
-        TOP
+        TOP 4
       </h1>
     </main>
   );

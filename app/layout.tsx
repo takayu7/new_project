@@ -7,13 +7,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div
-      className={`${inter.className} antialiased flex h-screen flex-col md:flex-row md:overflow-hidden`}
-    >
-      <div className="flex-grow bg-gray-200 md:overflow-y-auto md:p-12">
-        {children}
-      </div>
-    </div>
+    <html lang="ja">
+      <body
+        className={`${inter.className} antialiased flex h-screen flex-col md:flex-row md:overflow-hidden`}
+      >
+        <div className="flex-grow bg-gray-200 md:overflow-y-auto md:p-12">
+          {children}
+        </div>
+      </body>
+    </html>
   );
 }
 
